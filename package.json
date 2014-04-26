@@ -1,5 +1,5 @@
 {
-  "name": "dimsjs",
+  "name": "dims",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,10 @@
   },
   "author": "Jeremy Fairbank",
   "license": "MIT",
+  "repository": {
+    "type": "git"
+    "url": "https://github.com/jfairbank/dims"
+  },
   "devDependencies": {
     "gulp-jison": "~1.0.0",
     "gulp": "~3.6.2",

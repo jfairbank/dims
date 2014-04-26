@@ -1,0 +1,17 @@
+{
+  "name": "dimsjs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Fairbank",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-jison": "~1.0.0",
+    "gulp": "~3.6.2",
+    "gulp-rename": "~1.2.0",
+    "gulp-browserify": "^0.5.0"
+  }
+}

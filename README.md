@@ -28,9 +28,10 @@ To best understand how it works, check out some examples below:
   // Equality
   // ========
   
-  d.evaluateToValue('x > y');      // true
-  d.evaluateToValue('y < z < x');  // true
-  d.evaluateToValue('42ft > x');   // false
-  d.evaluateToValue('42ft >= x');  // true
-  d.evaluate('y = z');             // false, notice single "="
+  d.evaluateToValue('x > y');       // true
+  d.evaluateToValue('y < z < x');   // true
+  d.evaluateToValue('42ft > x');    // false
+  d.evaluateToValue('42ft >= x');   // true
+  d.evaluateToValue('y = z');       // false, notice single "="
+  d.evaluateToValue('y = 0.75ft');  // true
 ```

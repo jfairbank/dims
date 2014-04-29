@@ -5,6 +5,7 @@ dims is a simple language for evaluating arithmetic and equality expressions of 
 To best understand how it works, check out some examples below:
 
 ```javascript
+  var dims = require('dims');  // global for browsers
   var d = dims();
   
   // Arithmetic
@@ -35,3 +36,11 @@ To best understand how it works, check out some examples below:
   d.evaluateToValue('y = z');       // false, notice single "="
   d.evaluateToValue('y = 0.75ft');  // true
 ```
+
+## Build
+
+1. Install gulp with `npm install -g gulp`
+2. Run `gulp` or `gulp parser` to build the parser.
+3. Or, run `gulp browser` to build a copy for the web.
+
+## More to come...
